@@ -1,0 +1,98 @@
+/* heder */
+*{margin: 0;padding: 0;}
+.cabecera{
+    background-image: url(./imagenes/MURAL1.webp); width: 100%; height:350px ;
+
+}  
+.barraNavegacion__lista { height: 50px; width:99vw;
+    list-style:none ; border-style:solid;
+background-image: url(./imagenes/fondobarra.jpg) ;
+display: flex ;
+flex-direction:;
+justify-content: space-evenly;flex-wrap: wrap; align-content: center; 
+}
+
+.anchor__item{ text-decoration: none; color:rgb(0, 0, 0); font-size: 34px; width:fit-content;
+        border-style: none; 
+        padding: 5px; 
+        margin: 60px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+ .divh2{height: 300px; width: 100vw; 
+display: flex; flex-direction: row; justify-content: center;
+ }
+ .letradelogo{ display: flex;align-items: center;
+     color: rgb(0, 0, 0); font-size: 55px; font-family:cursive; font-weight: bold;
+            
+
+ }                 
+
+
+
+/* main home*/
+.main{ width: 100vw; height:fit-content;
+     background-color: rgb(231, 211, 146);   display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(2, 500px);
+    grid-column-gap: 0px;
+    grid-row-gap: 0px; justify-items: center; align-items: center; 
+}
+.mainImagen1{
+  grid-area: 1 / 1 / 2 / 2; 
+}
+.mainImagen2{
+     grid-area: 1 / 2 / 2 / 3; 
+}
+.mainImagen3{
+   grid-area: 2 / 1 / 3 / 2; 
+}
+.mainImagen4{
+     grid-area: 2 / 2 / 3 / 3;
+}
+.pHome{
+    grid-area: 1 / 3 / 3 / 4;
+}
+/* mainhistoria */
+.mainhistoria{ height:fit-content; width:100%;
+padding: 20px;display: grid;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: 1.5fr repeat(2, 0.5fr) 1fr 0.5fr;
+grid-column-gap: 15px;
+grid-row-gap: 15px; justify-items: end;
+background-image: url(./imagenes/MURAL1.webp);
+}
+.h2historia1{grid-area: 1 / 1 / 2 / 2;font-family: cursive; font-size: 30px; text-align: justify; display: flex; flex-direction: column; justify-content: end;}
+.h2historia2{  grid-area: 3 / 1 / 4 / 3;font-family: cursive; font-size: 30px; text-align: justify;}
+.h2historia3{ grid-area: 5 / 1 / 6 / 3;font-family: cursive; font-size: 30px; text-align: justify;}
+.phistoria1{ grid-area: 2 / 1 / 3 / 2; font-family: cursive;font-size: 40px;text-decoration: underline ; color: red;  height: 600px; display: flex; flex-direction: column; justify-content: end; text-align: center; justify-items: end;}
+.phistoria2{ grid-area: 4 / 2 / 5 / 3;font-family: cursive;font-size: 40px;text-decoration: underline ; color: red;  height: 600px; width: 1000px; display: flex; flex-direction: column-reverse; justify-content: end; align-content: flex-start;}
+.muralantiguo{grid-area: 1 / 2 / 3 / 3; object-position: bottom; }
+.venecitas{grid-area: 4 / 1 / 5 / 2; width: 600px; }
+
+
+
+
+
+
+
+
+
+
+
+/* footer */ 
+.footer{width: 100%; height: 250px; 
+
+}
+
+.footerUl{display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: 250px;
+    grid-column-gap: 0px;
+    grid-row-gap: 0px;
+    justify-items: center;
+}
+
+.imagenFooterf{ grid-area: 1 / 2 / 2 / 3;
+
+}
+.imagenFooteri{ grid-area: 1 / 3 / 2 / 4;
+
+}
