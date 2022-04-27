@@ -8,7 +8,7 @@
     list-style:none ; border-style:solid;
 background-image: url(./imagenes/fondobarra.jpg) ;
 display: flex ;
-flex-direction:;
+
 justify-content: space-evenly;flex-wrap: wrap; align-content: center; 
 }
 
@@ -20,9 +20,29 @@ justify-content: space-evenly;flex-wrap: wrap; align-content: center;
 display: flex; flex-direction: row; justify-content: center;
  }
  .letradelogo{ display: flex;align-items: center;
-     color: rgb(0, 0, 0); font-size: 55px; font-family:cursive; font-weight: bold;
-            
-
+     color: rgb(255, 255, 255); font-size: 55px; font-family:cursive; font-weight: bold;
+    animation-name: rotartitulo;  
+    animation-iteration-count: initial;
+    animation-delay: 2s;
+    animation-duration: 4s;  
+    scale: 1;
+    }  
+@keyframes rotartitulo {
+    0%{
+        transform: rotate(0deg);
+    }
+    25%{
+        transform: rotate(45deg);
+    }
+    50%{
+        transform: rotate(90deg);
+    }
+    75%{
+        transform: rotate(180deg);
+    }
+    100%{
+        transform: rotate(360deg);
+    }
  }                 
 
 
