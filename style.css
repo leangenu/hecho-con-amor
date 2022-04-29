@@ -9,8 +9,10 @@
 background-image: url(./imagenes/fondobarra.jpg) ;
 display: flex ;
 
-justify-content: space-evenly;flex-wrap: wrap; align-content: center; 
-}
+justify-content: space-evenly;flex-wrap: wrap; align-content: center; }
+.imagenLogoBootstrap{
+    width: 100px; border-radius: 6px;}
+.container-fluid{background-image: url(./imagenes/fondobarra.jpg);}
 
 .anchor__item{ text-decoration: none; color:rgb(0, 0, 0); font-size: 34px; width:fit-content;
         border-style: none; 
