@@ -1,0 +1,14 @@
+.cabecera{
+    background-image: url(./imagenes/MURAL1.webp); width: 100%; height:350px ;
+    .barraNavegacion__lista{
+        height: 50px; width:99vw;
+        list-style:none ; border-style:solid;
+        background-image: url(./imagenes/fondobarra.jpg) ;
+        display: flex ;justify-content: space-evenly;flex-wrap: wrap; align-content: center;
+        .anchor__item{
+            text-decoration: none; color:rgb(0, 0, 0); font-size: 34px; width:fit-content;
+            border-style: none; 
+            padding: 5px; margin: 60px; font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+    }
+}

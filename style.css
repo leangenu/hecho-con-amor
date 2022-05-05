@@ -7,9 +7,7 @@
 .barraNavegacion__lista { height: 50px; width:99vw;
     list-style:none ; border-style:solid;
 background-image: url(./imagenes/fondobarra.jpg) ;
-display: flex ;
-
-justify-content: space-evenly;flex-wrap: wrap; align-content: center; 
+display: flex ;justify-content: space-evenly;flex-wrap: wrap; align-content: center; 
 }
 
 .anchor__item{ text-decoration: none; color:rgb(0, 0, 0); font-size: 34px; width:fit-content;
